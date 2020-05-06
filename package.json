@@ -2,7 +2,7 @@
   "name": "robofriends",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AnnaArakelyan.github.io",
+  "homepage": "https://AnnaArakelyan.github.io/robofriends",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -13,12 +13,12 @@
     "tachyons": "^4.11.1"
   },
   "scripts": {
-+   "predeploy": "npm run build",
-+   "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
++   "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
++   "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
